@@ -1,0 +1,43 @@
+body{
+    background-color: maroon;
+}
+.nav{
+    background-color: red;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 0px;
+    transition: 500ms ease;
+}
+
+.nav a:hover{
+    background-color: maroon;
+    top: -10px;
+    
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallery img{
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+
+}
